@@ -71,7 +71,8 @@ This won't remove rewards you've already received in TaskHero.
 
 ## Privacy
 
-Your cards, answers, and deck names stay in Anki. No ads or analytics.
+Your cards, answers, and deck names stay in Anki. No ads. TaskHero records points
+earned and rewarded habit completions to understand integration usage.
 See the [privacy policy](PRIVACY.md) for details and local data-removal instructions.
 
 ## Need help?

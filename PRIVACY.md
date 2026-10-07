@@ -6,8 +6,7 @@ needed to award points and complete your chosen habit.
 ## What stays in Anki
 
 The add-on does not send card text, answers, notes, tags, deck names, media,
-scheduling details, or Anki profile names. It has no ads, analytics, or
-crash-reporting service.
+scheduling details, or Anki profile names. It has no ads.
 
 ## What TaskHero receives
 
@@ -16,6 +15,11 @@ crash-reporting service.
   sends that habit's name and settings.
 - Identifiers that keep the same reward from being awarded twice, with
   `Anki` as the source.
+
+The add-on does not send separate analytics or crash reports. TaskHero records
+successful rewards for usage analytics, including the integration, reward type,
+points awarded, and timestamps. These records are associated with your TaskHero
+account; they do not contain card content or individual review history.
 
 Your Anki token authenticates the connection over HTTPS. Requests identify the
 add-on version, and TaskHero may receive connection information such as your IP

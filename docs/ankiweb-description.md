@@ -29,7 +29,8 @@ TaskHero day.
 
 ## Privacy and help
 
-Your cards, answers, notes, and deck names stay in Anki. No ads or analytics.
+Your cards, answers, notes, and deck names stay in Anki. No ads. TaskHero records
+points earned and rewarded habit completions to understand integration usage.
 
 - [Source code and setup guide](https://github.com/whetware/TaskHero-Anki)
 - [Privacy](https://github.com/whetware/TaskHero-Anki/blob/main/PRIVACY.md)
