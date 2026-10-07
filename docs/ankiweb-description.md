@@ -1,5 +1,3 @@
-# TaskHero for Anki
-
 Turn your Anki reviews into TaskHero rewards.
 
 Earn points as you study and complete your daily study habit when you reach
@@ -16,7 +14,8 @@ connected computer.
 For Anki **26.8.1 or later** on **Windows, macOS, and Linux**.
 Requires a TaskHero account.
 
-1. Install the add-on and restart Anki.
+1. In Anki, open **Tools → Add-ons → Get Add-ons…**, enter **1715570135**,
+   install the add-on, and restart Anki.
 2. In TaskHero, open **Integrations & API → Anki** and generate an Anki token.
 3. Open **Tools → TaskHero for Anki → Settings…** in Anki and paste the token.
 4. Click **Create “Study Anki”**, or **Refresh habits** to choose an existing

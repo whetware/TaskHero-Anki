@@ -38,9 +38,10 @@ checks alone do not establish deployment readiness.
    [listing description](ankiweb-description.md). Set the compatibility range
    to Anki 26.8.1 or later and preview the rendered description and links;
    convert the source formatting as needed for AnkiWeb.
-3. For the first listing, add the assigned numeric code to the setup guide and
-   align package identity/conflict metadata with it. Check that an earlier
-   manual installation won't load a second copy of the add-on.
+3. Keep the installation code and manifest package identity at **1715570135**.
+   Retain the `taskhero_anki` conflict so an earlier manual installation is
+   disabled. Check that both file and AnkiWeb updates keep one active copy and
+   preserve the profile's saved connection and reward history.
 4. Rebuild after those changes, repeat the relevant checks, and publish matching
    source. Replace the changelog entry's "Unreleased" label with the actual
    release date. Create a version tag and GitHub release with the package,

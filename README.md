@@ -22,10 +22,9 @@ your own daily batch goal. Again, Hard, Good, and Easy all count equally.
 Sync your collection before connecting so existing mobile reviews are included
 in your starting history.
 
-1. Download `taskhero-for-anki.ankiaddon` from
-   [GitHub Releases](https://github.com/whetware/TaskHero-Anki/releases).
-2. In Anki, open **Tools → Add-ons → Install from file…**, select the download,
-   and restart Anki.
+1. In Anki, open **Tools → Add-ons → Get Add-ons…** and enter **1715570135**.
+   See the [AnkiWeb listing](https://ankiweb.net/shared/info/1715570135).
+2. Install the add-on and restart Anki.
 3. In TaskHero, open **Integrations & API → Anki**, generate an Anki token, and
    copy it.
 4. In Anki, open **Tools → TaskHero for Anki → Settings…**, paste the token,
@@ -33,6 +32,12 @@ in your starting history.
 5. Click **Create “Study Anki”**, or **Refresh habits** to select an existing
    habit that repeats every day with one repetition.
 6. Choose your reward settings and click **Save**. You're ready to study.
+
+For manual installation, download `taskhero-for-anki.ankiaddon` from
+[GitHub Releases](https://github.com/whetware/TaskHero-Anki/releases), choose
+**Tools → Add-ons → Install from file…**, then restart Anki. Both installation
+methods use the same add-on ID. Updating an earlier manual copy disables the old
+copy and keeps your saved connection and progress; leave the old copy disabled.
 
 ![TaskHero connection and reward settings](docs/images/settings.png)
 

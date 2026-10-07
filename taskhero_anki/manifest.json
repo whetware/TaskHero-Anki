@@ -1,5 +1,6 @@
 {
-    "package": "taskhero_anki",
+    "package": "1715570135",
     "name": "TaskHero for Anki",
-    "mod": 1791314701
+    "conflicts": ["taskhero_anki"],
+    "mod": 1791403515
 }

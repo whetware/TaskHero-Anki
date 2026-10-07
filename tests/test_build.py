@@ -30,8 +30,9 @@ class BuildTest(unittest.TestCase):
                     self.assertEqual(archive.read(name), source.read_bytes())
 
                 manifest = json.loads(archive.read("manifest.json"))
-                self.assertEqual(manifest["package"], "taskhero_anki")
+                self.assertEqual(manifest["package"], "1715570135")
                 self.assertEqual(manifest["name"], "TaskHero for Anki")
+                self.assertEqual(manifest["conflicts"], ["taskhero_anki"])
 
     def test_unexpected_private_file_cannot_enter_package(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
